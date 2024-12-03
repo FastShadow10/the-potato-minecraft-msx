@@ -282,6 +282,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_pickaxe": "2024-12-03 02:22:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_chicken": "2024-12-03 00:37:03 +0000"
@@ -390,6 +396,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-12-03 02:17:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-03 00:54:58 +0000"
@@ -453,6 +465,12 @@
   "travelersbackpack:recipes/misc/creeper": {
     "criteria": {
       "has_gunpowder": "2024-12-03 01:18:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_pickaxe": "2024-12-03 02:22:16 +0000"
     },
     "done": true
   },
@@ -615,6 +633,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-12-03 01:07:15 +0000",
+      "minecraft:enderman": "2024-12-03 02:21:34 +0000",
       "minecraft:zombie": "2024-12-03 01:24:28 +0000",
       "minecraft:creeper": "2024-12-03 01:18:01 +0000"
     },
@@ -962,6 +981,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-12-03 02:17:47 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/iron": {
     "criteria": {
       "has_iron_ingot": "2024-12-03 01:07:55 +0000"
@@ -1085,6 +1110,12 @@
   "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2024-12-03 02:15:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2024-12-03 02:17:47 +0000"
     },
     "done": true
   },
@@ -1289,6 +1320,12 @@
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2024-12-03 01:06:35 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/enderman": {
+    "criteria": {
+      "has_ender_pearl": "2024-12-03 02:22:10 +0000"
     },
     "done": true
   },
@@ -1561,7 +1598,8 @@
       "cooked_porkchop": "2024-12-03 00:40:41 +0000",
       "bread": "2024-12-03 01:31:42 +0000",
       "cooked_chicken": "2024-12-03 01:12:19 +0000",
-      "cooked_beef": "2024-12-03 02:16:37 +0000"
+      "cooked_beef": "2024-12-03 02:16:37 +0000",
+      "baked_potato": "2024-12-03 02:22:00 +0000"
     },
     "done": false
   },
