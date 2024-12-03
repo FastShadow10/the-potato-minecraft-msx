@@ -156,3 +156,13 @@
 [01:07:55] [Server thread/INFO]: FastShadow10 has made the advancement [Acquire Hardware]
 [01:17:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1421, y=103, z=-773} class_2338{x=-1422, y=102, z=-773}
 [01:45:11] [Server thread/INFO]: FastShadow10 has made the advancement [A Seedy Place]
+[02:11:09] [Server thread/INFO]: Villager class_1646['Weaponsmith'/17500, l='ServerLevel[world]', x=-1264.50, y=70.94, z=-893.98] died, message: 'Weaponsmith was slain by Zombie'
+[02:13:20] [Server thread/INFO]: FastShadow10 has made the advancement [Isn't It Iron Pick]
+[02:14:08] [Server thread/INFO]: FastShadow10 has made the advancement [Diamonds!]
+[02:14:26] [Server thread/INFO]: wocelz has made the advancement [Acquire Hardware]
+[02:14:35] [Server thread/INFO]: wocelz has made the advancement [Isn't It Iron Pick]
+[02:15:24] [Server thread/INFO]: wocelz has made the advancement [Not Today, Thank You]
+[02:16:27] [Server thread/INFO]: wocelz has made the advancement [Diamonds!]
+[02:16:42] [Server thread/INFO]: Villager class_1646['Nitwit'/8946, l='ServerLevel[world]', x=-1284.70, y=54.34, z=-899.32] died, message: 'Nitwit was slain by Zombie'
+[02:16:48] [Server thread/INFO]: Villager class_1646['Unemployed'/8828, l='ServerLevel[world]', x=-1284.09, y=54.29, z=-900.70] died, message: 'Unemployed was slain by Zombie'
+[02:16:49] [Server thread/INFO]: Villager class_1646['Farmer'/8944, l='ServerLevel[world]', x=-1284.70, y=55.48, z=-899.92] died, message: 'Farmer was slain by Zombie Villager'
