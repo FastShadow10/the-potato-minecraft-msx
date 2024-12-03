@@ -1,6 +1,6 @@
-[23:23:20] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[23:23:20] [ForkJoinPool-1-worker-1/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[23:23:20] [main/INFO]: Loading 67 mods:
+[00:27:16] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[00:27:17] [ForkJoinPool-1-worker-1/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:27:17] [main/INFO]: Loading 70 mods:
 	- cardinal-components 6.1.0
 	   |-- cardinal-components-base 6.1.0
 	   |-- cardinal-components-block 6.1.0
@@ -14,6 +14,7 @@
 	- cloth-config 15.0.128
 	   \-- cloth-basic-math 0.6.1
 	- clumps 18.0.0.1
+	- connectedglass 1.1.12
 	- entityculling 1.6.6
 	- fabric-api 0.102.0+1.21
 	   |-- fabric-api-base 0.4.42+6573ed8cd1
@@ -67,6 +68,7 @@
 	- fabricloader 0.16.3
 	   \-- mixinextras 0.4.1
 	- ferritecore 7.0.0
+	- fusion 1.1.1
 	- gpumemleakfix 1.21-1.8
 	- jade 15.1.4+fabric
 	- java 21
@@ -79,78 +81,61 @@
 	- minecraft 1.21
 	- modernfix 5.18.8+mc1.21
 	- placeholder-api 2.4.1+1.21
+	- supermartijn642corelib 1.1.17+c
 	- travelersbackpack fabric-1.21-10.0.6
-[23:23:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/the-potato-minecraft-msx/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[23:23:21] [main/INFO]: Compatibility level set to JAVA_21
-[23:23:21] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[23:23:21] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[23:23:21] [main/INFO]: Loaded configuration file for Lithium: 138 options available, 1 override(s) found
-[23:23:22] [main/INFO]: Loaded configuration file for ModernFix 5.18.8+mc1.21: 53 options available, 0 override(s) found
-[23:23:22] [main/INFO]: Applying Nashorn fix
-[23:23:22] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[23:23:22] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[23:23:26] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[23:23:26] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[23:23:26] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[23:23:27] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[23:23:31] [main/INFO]: Vanilla bootstrap took 7885 milliseconds
-[23:23:32] [main/INFO]: Initializing ServerSide Packet Registries
-[23:23:32] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[23:23:32] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[23:23:32] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[23:23:32] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[23:23:32] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:23:34] [main/INFO]: No existing world data, creating new world
-[23:23:35] [main/INFO]: Loaded 1415 recipes
-[23:23:36] [main/INFO]: Loaded 1524 advancements
-[23:23:36] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.485 ms
-[23:23:36] [Server thread/INFO]: Starting minecraft server version 1.21
-[23:23:36] [Server thread/INFO]: Loading properties
-[23:23:36] [Server thread/INFO]: Default game type: SURVIVAL
-[23:23:36] [Server thread/INFO]: Generating keypair
-[23:23:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:23:36] [Server thread/INFO]: Using epoll channel type
-[23:23:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:23:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:23:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:23:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:23:36] [Server thread/INFO]: Preparing level "world"
-[23:23:37] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
-[23:23:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:23:49] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:49] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:50] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:50] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:51] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:51] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:52] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:52] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:53] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:53] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:54] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:54] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:55] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:55] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:56] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:56] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:57] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[23:23:57] [Server thread/INFO]: Time elapsed: 8406 ms
-[23:23:57] [Server thread/INFO]: Done (20.715s)! For help, type "help"
-[23:23:57] [Server thread/WARN]: Dedicated server took 38.308 seconds to load
-[23:23:57] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[23:23:57] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[23:23:57] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[23:23:57] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[23:23:57] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[23:23:57] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@52d8e1b1 for service interface journeymap.api.services.ClientPlatformService
-[23:23:57] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@52150ddd for service interface journeymap.api.services.CommonPlatformService
-[23:23:57] [Server thread/INFO]: global (FirstLoaded) Setting config file to version "6.0.0-beta.16": journeymap.server.global.config
-[23:23:57] [Server thread/INFO]: global (Valid) Creating config file: journeymap/server/6.0/journeymap.server.global.config
-[23:23:57] [Server thread/INFO]: default (FirstLoaded) Setting config file to version "6.0.0-beta.16": journeymap.server.default.config
-[23:23:57] [Server thread/INFO]: default (Valid) Creating config file: journeymap/server/6.0/journeymap.server.default.config
-[23:23:57] [Server thread/INFO]: minecraft~overworld (Initialized) Setting config file to version "6.0.0-beta.16": journeymap.server.minecraft~overworld.config
-[23:23:57] [Server thread/INFO]: minecraft~overworld (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~overworld.config
-[23:23:57] [Server thread/INFO]: minecraft~the_end (Initialized) Setting config file to version "6.0.0-beta.16": journeymap.server.minecraft~the_end.config
-[23:23:57] [Server thread/INFO]: minecraft~the_end (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_end.config
-[23:23:57] [Server thread/INFO]: minecraft~the_nether (Initialized) Setting config file to version "6.0.0-beta.16": journeymap.server.minecraft~the_nether.config
-[23:23:57] [Server thread/INFO]: minecraft~the_nether (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_nether.config
+[00:27:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/the-potato-minecraft-msx/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:27:18] [main/INFO]: Compatibility level set to JAVA_21
+[00:27:18] [main/WARN]: Reference map 'connectedglass.mixins.refmap.json' for connectedglass.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:27:18] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:27:18] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:27:18] [main/INFO]: Loaded configuration file for Lithium: 138 options available, 1 override(s) found
+[00:27:19] [main/INFO]: Loaded configuration file for ModernFix 5.18.8+mc1.21: 53 options available, 0 override(s) found
+[00:27:19] [main/INFO]: Applying Nashorn fix
+[00:27:20] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[00:27:21] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[00:27:27] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[00:27:27] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[00:27:27] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[00:27:28] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[00:27:36] [main/INFO]: Vanilla bootstrap took 13232 milliseconds
+[00:27:37] [main/INFO]: Initializing ServerSide Packet Registries
+[00:27:37] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[00:27:37] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[00:27:37] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[00:27:37] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[00:27:37] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:27:41] [main/INFO]: Loaded 1716 recipes
+[00:27:41] [main/INFO]: Loaded 1825 advancements
+[00:27:41] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:black_dyes, c:blue_dyes, c:brown_dyes, c:cyan_dyes, c:gray_dyes, c:green_dyes, c:light_blue_dyes, c:light_gray_dyes, c:lime_dyes, c:magenta_dyes, c:orange_dyes, c:pink_dyes, c:purple_dyes, c:red_dyes, c:white_dyes, c:yellow_dyes
+[00:27:41] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 6.279 ms
+[00:27:41] [Server thread/INFO]: Starting minecraft server version 1.21
+[00:27:41] [Server thread/INFO]: Loading properties
+[00:27:41] [Server thread/INFO]: Default game type: SURVIVAL
+[00:27:41] [Server thread/INFO]: Generating keypair
+[00:27:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:27:42] [Server thread/INFO]: Using epoll channel type
+[00:27:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:27:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:27:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:27:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:27:42] [Server thread/INFO]: Preparing level "world"
+[00:27:42] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[00:27:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:27:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:27:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:27:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:27:44] [Server thread/INFO]: Time elapsed: 1447 ms
+[00:27:44] [Server thread/INFO]: Done (2.063s)! For help, type "help"
+[00:27:44] [Server thread/WARN]: Dedicated server took 36.903 seconds to load
+[00:27:44] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[00:27:44] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[00:27:44] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[00:27:44] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[00:27:44] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[00:27:44] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@673a248e for service interface journeymap.api.services.ClientPlatformService
+[00:27:44] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@12943947 for service interface journeymap.api.services.CommonPlatformService
+[00:29:09] [Server thread/INFO]: FastShadow10[/127.2.80.131:35587] logged in with entity id 30 at (-86.45640416462281, 75.0, 15.530105742353118)
+[00:29:09] [Server thread/INFO]: Loading config from file...
+[00:29:09] [Server thread/INFO]: FastShadow10 joined the game
+[00:33:37] [Server thread/WARN]: FastShadow10 moved too quickly! -9.962069248643928,1.4199999868869781,2.3028472005041323
+[00:33:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2857ms or 57 ticks behind
