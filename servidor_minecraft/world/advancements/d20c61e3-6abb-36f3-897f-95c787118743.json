@@ -447,6 +447,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-12-03 01:07:15 +0000",
+      "minecraft:zombie": "2024-12-03 01:24:28 +0000",
       "minecraft:creeper": "2024-12-03 01:18:01 +0000"
     },
     "done": false
@@ -685,6 +686,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-12-03 01:28:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_chest_boat": {
     "criteria": {
       "has_boat": "2024-12-03 01:03:55 +0000"
@@ -712,6 +719,12 @@
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2024-12-03 00:36:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2024-12-03 01:28:47 +0000"
     },
     "done": true
   },
@@ -955,6 +968,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-12-03 01:32:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2024-12-03 01:07:55 +0000"
@@ -1072,6 +1091,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-12-03 00:40:41 +0000",
+      "bread": "2024-12-03 01:31:42 +0000",
       "cooked_chicken": "2024-12-03 01:12:19 +0000"
     },
     "done": false
@@ -1151,6 +1171,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2024-12-03 01:07:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-12-03 01:28:47 +0000"
     },
     "done": true
   },
